@@ -2,14 +2,26 @@
 
 Character for [Autonomous Lab](https://autolab.kejunying.com). A computational biology PI who drives single-cell genomics research with machine learning approaches.
 
+## Structure
+
+```
+autolab-char-compbio-pi/
+├── character.yaml
+└── skills/
+    ├── single-cell-analysis/
+    │   └── SKILL.md          # scanpy + scvi-tools workflows
+    ├── multi-modal-integration/
+    │   └── SKILL.md          # TOTALVI, MultiVI, CITE-seq
+    └── scientific-writing/
+        └── SKILL.md          # manuscript drafting, figure conventions
+```
+
 ## Install
 
 ```bash
-curl -O https://raw.githubusercontent.com/albert-ying/autolab-char-compbio-pi/master/character.yaml
+git clone https://github.com/albert-ying/autolab-char-compbio-pi .autolab/characters/compbio-pi
 ```
 
-Then deploy with `autolab_create_character` or copy to `.autolab/profiles/pi.yaml`.
+## License
 
-## Skills
-
-scanpy, scvi-tools, pytorch-lightning, scientific-writing, scientific-visualization, statistical-analysis
+Apache 2.0
