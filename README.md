@@ -2,6 +2,8 @@
 
 Character for [Autonomous Lab](https://autolab.kejunying.com). A computational biology PI who drives single-cell genomics research with machine learning approaches.
 
+Skills are auto-learned and validated. Each skill has a `meta.yaml` tracking certification status.
+
 ## Structure
 
 ```
@@ -9,11 +11,14 @@ autolab-char-compbio-pi/
 ├── character.yaml
 └── skills/
     ├── single-cell-analysis/
-    │   └── SKILL.md          # scanpy + scvi-tools workflows
+    │   ├── SKILL.md
+    │   └── meta.yaml          # scanpy + scvi-tools workflows
     ├── multi-modal-integration/
-    │   └── SKILL.md          # TOTALVI, MultiVI, CITE-seq
+    │   ├── SKILL.md
+    │   └── meta.yaml          # TOTALVI, MultiVI, CITE-seq
     └── scientific-writing/
-        └── SKILL.md          # manuscript drafting, figure conventions
+        ├── SKILL.md
+        └── meta.yaml          # manuscript drafting, figure conventions
 ```
 
 ## Install
